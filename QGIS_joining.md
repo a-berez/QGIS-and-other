@@ -15,15 +15,15 @@
 ![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image1.png)
 
 ## 4. Загрузка «*join*» в QGIS  
-**Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T
+Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T
 
 ![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image2.png)  
 
-[1] — выбираем файл, который надо загрузить 
-[2] — выбираем разделитель. Чаще всего это точка с запятой, но могут быть исключения. При выборе нужно ориентироваться на окошко предпросмотра [5] 
-[3] — Нужно отметить: первая строка как заголовок, цеплять типы полей, отбрасывать пустые поля, (если не изменены запятые на точки в п.2) запятая как десятичный разделитель  
-[4] — очевидно  
-[5] — окно предпросмотра  
+[1] — выбираем файл, который надо загрузить   
+[2] — выбираем разделитель. Чаще всего это точка с запятой, но могут быть исключения. При выборе нужно ориентироваться на окошко предпросмотра [5]  
+[3] — Нужно отметить: первая строка как заголовок, цеплять типы полей, отбрасывать пустые поля, (если не изменены запятые на точки в п.2) запятая как десятичный разделитель   
+[4] — очевидно   
+[5] — окно предпросмотра   
 
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
