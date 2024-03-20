@@ -13,12 +13,12 @@
 ## 3. Подготовка «*blank*» 
 Проверяем, чтобы столбец с уникальной характеристикой, если это число, имел числовой тип. Обычно это integer. 
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image2.png)  
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/join1.png)  
 
 ## 4. Загрузка «*join*» в QGIS  
 Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image4.png)  
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/join2.png)  
 
 [1] — выбираем файл, который надо загрузить   
 [2] — выбираем разделитель. Чаще всего это точка с запятой, но могут быть исключения. При выборе нужно ориентироваться на окошко предпросмотра [5]  
@@ -26,14 +26,14 @@
 [4] — очевидно   
 [5] — окно предпросмотра   
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image1.png)  
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/join3.png)  
 
 Проверив всё, нажимаем добавить и проверяем загрузилась ли таблица атрибутов.
 
 ## 5. Присоединение
 В свойствах слоя выбираем присоединение и нажимаем на плюсик. 
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image3.png)
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/join4.png)
 
 [1] — выбираем слой, который хотим присоединить. В данном случае «*join*»  
 [2] — выбираем «уникальный» столбец слоя «*join*»  
@@ -44,7 +44,7 @@
 После этого лучше пересохранить слой «*blank*» с добавленными полями, чтобы поля стали «родными»  
 
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image5.png)
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/join5.png)
 
 
 Аналогично поступаем и в случае, когда нам нужно прибавить к одному векторному слою другой.
