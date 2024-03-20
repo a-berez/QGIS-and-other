@@ -12,12 +12,12 @@
 
 ## 3. Подготовка «*blank*» 
 Проверяем, чтобы столбец с уникальной характеристикой, если это число, имел числовой тип. Обычно это integer. 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image1.png)
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image2.png)
 
 ## 4. Загрузка «*join*» в QGIS  
 Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T
 
-![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image2.png)  
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/image1.png)  
 
 [1] — выбираем файл, который надо загрузить   
 [2] — выбираем разделитель. Чаще всего это точка с запятой, но могут быть исключения. При выборе нужно ориентироваться на окошко предпросмотра [5]  
