@@ -17,9 +17,9 @@
 1. Запрос в калькулятор выделения `"BUILDING" =  'detached' OR "BUILDING" = 'house' OR "BUILDING" = 'residential' OR NULL` и перепроверка  
 
 ## 2. Загрузка данных с «Реформы.ЖКХ» в QGIS.  
-!Про присоединение элементов описано [здесь](https://github.com/a-berez/QGIS-and-other/blob/main/QGIS_joining.md)!
+> Про присоединение элементов написано [здесь](https://github.com/a-berez/QGIS-and-other/blob/main/QGIS_joining.md)   
 #### 1. Загружаем геокодированные данные в формате CSV.  
-!Лучше сохранять какой-либо уникальный элемент в наборе данных, например, ID или присовить свой!  
+> Лучше сохранять какой-либо уникальный элемент в наборе данных, например, ID или присвоить свой   
 
 Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T  
 
