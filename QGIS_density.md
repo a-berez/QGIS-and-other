@@ -17,8 +17,18 @@
 1. Запрос в калькулятор выделения `"BUILDING" =  'detached' OR "BUILDING" = 'house' OR "BUILDING" = 'residential' OR NULL` и перепроверка  
 
 ## 2. Загрузка данных с «Реформы.ЖКХ» в QGIS.  
-!Про присоединение элементов описано [здесь](https://docs.google.com/document/d/1pDbhUj2454ec1Rp2AYNH6oAWZ8C2LtZrQaLfbB6KAVY/edit?usp=sharing)!
+!Про присоединение элементов описано [здесь](https://github.com/a-berez/QGIS-and-other/blob/main/QGIS_joining.md)!
 #### 1. Загружаем геокодированные данные в формате CSV.  
 !Лучше сохранять какой-либо уникальный элемент в наборе данных, например, ID или присовить свой!  
 
-Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T 
+Слой → Добавить слой → delimited text layer или ctrl/cmd+Shift+T  
+
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/density1.png)
+ 
+[1] — выбираем файл, который надо загрузить  
+[2] — выбираем разделитель. Чаще всего это точка с запятой, но могут быть исключения. При выборе нужно ориентироваться на окошко предпросмотра  
+[3] — Нужно отметить: первая строка как заголовок, цеплять типы полей, отбрасывать пустые поля, (если не изменены запятые на точки в п.2) запятая как десятичный разделитель  
+[4] — очевидно  
+[5] — окно предпросмотра  
+
+![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/density2.png)  
