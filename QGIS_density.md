@@ -64,3 +64,13 @@
 ![alt_text](https://github.com/a-berez/QGIS-and-other/blob/main/pics/density5.png)   
 
 #### Про выражение   
+Составим пропорцию:
+```math
+\frac{P_{city}}{P_{house}}=\frac{S_{city}}{S_{house}}\Rightarrow P_{house}=\frac{P_{city}×S_{house}}{S_{city}}
+```  
+
+Где  
+$`P_{city}`$ — общее количество жителей в городе;  
+$`P_{house}`$ — количество жителей в доме;  
+$`S_{city}`$ — общая жилая площадь в МКД в городе;  
+$`S_{house}`$ — жилая площадь в доме.   
