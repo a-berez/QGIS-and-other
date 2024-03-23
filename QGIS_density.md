@@ -9,10 +9,10 @@
 2. Иные источники данных, например, сайт муниципального образования или [сайт Росстата](https://rosstat.gov.ru/folder/12781)
 #### 2. Площадь жилых помещений в отдельных домах  
 1. Для МКД — [«Реформа.ЖКХ»](https://www.reformagkh.ru/opendata?gid=2208161&cids=house_management&page=1&pageSize=10)  
-2. Для ИЖС — см. [ниже]()  
+2. Для ИЖС — см. [ниже](https://github.com/a-berez/QGIS-and-other/blob/main/QGIS_density.md#4-ижс)  
 #### 3. Общая площадь жилого фонда
 1. Для МКД — [БДПМО](https://www.gks.ru/dbscripts/munst/)  
-2. Для ИЖС — [ниже]()  
+2. Для ИЖС — [ниже](https://github.com/a-berez/QGIS-and-other/blob/main/QGIS_density.md#4-ижс)  
 #### 4. Список домов ИЖС
 1. Запрос в калькулятор выделения `"BUILDING" =  'detached' OR "BUILDING" = 'house' OR "BUILDING" = 'residential' OR NULL` и перепроверка  
 
