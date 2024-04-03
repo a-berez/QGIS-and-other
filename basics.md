@@ -30,7 +30,15 @@
 
 ![alt-text](pics/basics/basics12.png)
 
-Для отображения скрытых элементов на компьютере с MacOS нужно в терминале ввести команду `defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder`. Для отключения этого режима можно использовать команду `defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder`. Или же можно использовать сочетание клавиш `⌘ + ⇧ +.` (cmd+shift+точка), но это будет работать только в той директории, в которой сочетание применено.
+Для отображения скрытых элементов на компьютере с MacOS нужно в терминале ввести команду 
+```
+defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
+``` 
+Для отключения этого режима можно использовать команду 
+```
+defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder`
+```
+Или же можно использовать сочетание клавиш `⌘ + ⇧ +.` (cmd+shift+точка), но это будет работать только в той директории, в которой сочетание применено.
 
 #### Правило бойскаута
 В своей книге [«Чистый код»](https://pakpakych.ru/media/uploads/2021/10/chistyi-kod-sozdanie-analiz-i-refaktoring-by-robert-martin-z-lib-org.pdf) Роберт Мартин ссылается на одно из правил бойскаутов, которое применимо и к работе с общими данными и кодом:  
