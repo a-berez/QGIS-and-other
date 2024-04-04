@@ -116,6 +116,18 @@ defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder`
 
 8. Теперь можно работать с файлами с Яндекс.Диска как с обычными, в том числе и в различных программах (например, QGIS или Adobe InDesign).
 
+#### Статусы файлов
+При использовании Яндекс.Диска как сетевого используются следующие обозначения статусов файлов:
+Символ | Значение
+:---:|---
+![alt-text](pics/basics/disk_status/1_saved.png) | Файл или папка хранится на компьютере
+![alt-text](pics/basics/disk_status/2_partly_saved.png) | Содержимое папки частично хранится на компьютере
+![alt-text](pics/basics/disk_status/3_in_progress.png) | Идет синхронизация
+![alt-text](pics/basics/disk_status/4_cloud.png) | Файл или папка хранится только в облаке
+![alt-text](pics/basics/disk_status/5_unknown.png) | Состояние синхронизации неизвестно
+![alt-text](pics/basics/disk_status/6_error.png) | Ошибка синхронизации
+
+
 ## Работа с Adobe InDesign
 
 В отличие от, например, PowerPoint, в котором внешние файлы сохраняются внутри самого файла, в файле проекта InDesign используются ссылки на внешние файлы. В связи с этим необходимо сохранять файлы так, чтобы была возможность использования файла проекта другим человеком.  
